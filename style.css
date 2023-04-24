@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    /* backdrop-filter: blur(30px); */
+    background: rgb(11, 11, 43);
+    z-index: 5;
+}
+
+.section-one {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/section-one-background.jpg);
+    background-size: cover;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-title {
+    margin-left: 5px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-nav ul li a {
+    margin-left: 60px;
+    color: white;
+}
+
+.header-nav ul li a:hover,
+.header-number a:hover,
+.logo:hover {
+    transition: .4s;
+    color: rgb(249, 44, 85);
+    /* text-shadow: 1px 1px 5px white; */
+}
+
+
+.header-number {
+    cursor: pointer;
+    color: white;
+    display: flex;
+}
+
+.header-number a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-number a p {
+    margin-left: 10px;
+}
+
+.website {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.website a {
+    margin-left: 10px;
+}
+
+.chat {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    z-index: 5;
+}
+
+.section-one__title {
+    padding-top: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-one__title p {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.section-one__btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-one__btn button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.section-one__btn button:hover {
+    transition: .4s all ease;
+    box-shadow: 4px 4px 15px crimson;
+}
+
+.section-two {
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cards__items {
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 3px 14px #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cards__items img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards__items p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
