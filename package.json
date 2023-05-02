@@ -1,0 +1,23 @@
+{
+  "name": "tourism-site",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albanovs/tourism-comm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albanovs/tourism-comm/issues"
+  },
+  "homepage": "https://github.com/albanovs/tourism-comm#readme",
+  "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
